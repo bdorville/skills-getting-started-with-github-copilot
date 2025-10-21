@@ -170,6 +170,24 @@ footer {
   border-radius: 999px;
   font-size: 14px;
   border: 1px solid #bbdefb;
+   display: flex;
+   align-items: center;
+   gap: 6px;
+}
+
+.participant-name {
+  margin-right: 4px;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: #c62828;
+  margin-left: 4px;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+.delete-icon:hover {
+  color: #b71c1c;
 }
 
 .participants-none {
